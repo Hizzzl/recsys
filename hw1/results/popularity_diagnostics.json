@@ -1,0 +1,24 @@
+[
+  {
+    "model": "MostPopular",
+    "parameters": {},
+    "NDCG@10": 0.02072601097279694,
+    "Recall@10": 0.0472497714004361,
+    "fit_seconds": 0.1553417730028741,
+    "evaluation_seconds": 0.06842847898951732,
+    "users": 677,
+    "purpose": "post-hoc non-personalized diagnostic; no tuning"
+  },
+  {
+    "model": "RecentPopular",
+    "parameters": {
+      "half_life_days": 365.0
+    },
+    "NDCG@10": 0.041239087597319396,
+    "Recall@10": 0.06714613959813369,
+    "fit_seconds": 0.1500439009978436,
+    "evaluation_seconds": 0.07663152800523676,
+    "users": 677,
+    "purpose": "post-hoc non-personalized diagnostic; no tuning"
+  }
+]

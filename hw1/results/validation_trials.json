@@ -1,0 +1,215 @@
+[
+  {
+    "model": "ItemKNN",
+    "parameters": {
+      "neighbors": 30,
+      "shrinkage": 10.0
+    },
+    "NDCG@10": 0.01892874731949034,
+    "Recall@10": 0.0345023643023643,
+    "fit_seconds": 0.2819206209969707,
+    "evaluation_seconds": 0.09447357800672762,
+    "users": 1500,
+    "trial": 0
+  },
+  {
+    "model": "ItemKNN",
+    "parameters": {
+      "neighbors": 80,
+      "shrinkage": 10.0
+    },
+    "NDCG@10": 0.020034814160561104,
+    "Recall@10": 0.03578014208014208,
+    "fit_seconds": 0.3143779850215651,
+    "evaluation_seconds": 0.1157603680039756,
+    "users": 1500,
+    "trial": 1
+  },
+  {
+    "model": "ItemKNN",
+    "parameters": {
+      "neighbors": 80,
+      "shrinkage": 50.0
+    },
+    "NDCG@10": 0.018300828427002896,
+    "Recall@10": 0.03355791985791986,
+    "fit_seconds": 0.3127447119913995,
+    "evaluation_seconds": 0.12219477200414985,
+    "users": 1500,
+    "trial": 2
+  },
+  {
+    "model": "iALS",
+    "parameters": {
+      "factors": 16,
+      "regularization": 1.0,
+      "alpha": 10.0,
+      "iterations": 8
+    },
+    "NDCG@10": 0.019725864265928154,
+    "Recall@10": 0.033263492063492064,
+    "fit_seconds": 5.396367053996073,
+    "evaluation_seconds": 0.34304520100704394,
+    "users": 1500,
+    "trial": 0
+  },
+  {
+    "model": "iALS",
+    "parameters": {
+      "factors": 24,
+      "regularization": 5.0,
+      "alpha": 10.0,
+      "iterations": 8
+    },
+    "NDCG@10": 0.019471849466747328,
+    "Recall@10": 0.03334737854737854,
+    "fit_seconds": 5.9108952620008495,
+    "evaluation_seconds": 0.34429778601042926,
+    "users": 1500,
+    "trial": 1
+  },
+  {
+    "model": "iALS",
+    "parameters": {
+      "factors": 24,
+      "regularization": 5.0,
+      "alpha": 30.0,
+      "iterations": 8
+    },
+    "NDCG@10": 0.018236370871226516,
+    "Recall@10": 0.03371931216931217,
+    "fit_seconds": 5.902059118991019,
+    "evaluation_seconds": 0.3292061489773914,
+    "users": 1500,
+    "trial": 2
+  },
+  {
+    "model": "EASE",
+    "parameters": {
+      "regularization": 50.0
+    },
+    "NDCG@10": 0.01948409814026987,
+    "Recall@10": 0.03175366300366301,
+    "fit_seconds": 3.2129547559889033,
+    "evaluation_seconds": 0.8118195260176435,
+    "users": 1500,
+    "trial": 0
+  },
+  {
+    "model": "EASE",
+    "parameters": {
+      "regularization": 200.0
+    },
+    "NDCG@10": 0.020064375163479555,
+    "Recall@10": 0.03304204684204684,
+    "fit_seconds": 3.361733422992984,
+    "evaluation_seconds": 0.7804383369802963,
+    "users": 1500,
+    "trial": 1
+  },
+  {
+    "model": "EASE",
+    "parameters": {
+      "regularization": 800.0
+    },
+    "NDCG@10": 0.02069890525509984,
+    "Recall@10": 0.035542046842046836,
+    "fit_seconds": 3.221190591022605,
+    "evaluation_seconds": 0.7723806659923866,
+    "users": 1500,
+    "trial": 2
+  },
+  {
+    "model": "FM",
+    "parameters": {
+      "factors": 8,
+      "learning_rate": 0.03,
+      "regularization": 0.0001,
+      "epochs": 6
+    },
+    "NDCG@10": 0.03559378253843812,
+    "Recall@10": 0.06711087061087061,
+    "fit_seconds": 8.863672064006096,
+    "evaluation_seconds": 0.33893087500473484,
+    "users": 1500,
+    "trial": 0
+  },
+  {
+    "model": "FM",
+    "parameters": {
+      "factors": 16,
+      "learning_rate": 0.03,
+      "regularization": 0.0001,
+      "epochs": 6
+    },
+    "NDCG@10": 0.031201427789551484,
+    "Recall@10": 0.056382010582010575,
+    "fit_seconds": 10.144319381011883,
+    "evaluation_seconds": 0.34597860599751584,
+    "users": 1500,
+    "trial": 1
+  },
+  {
+    "model": "FM",
+    "parameters": {
+      "factors": 16,
+      "learning_rate": 0.01,
+      "regularization": 0.001,
+      "epochs": 6
+    },
+    "NDCG@10": 0.041957416723336076,
+    "Recall@10": 0.08103468013468013,
+    "fit_seconds": 10.403007100016112,
+    "evaluation_seconds": 0.33438817199203186,
+    "users": 1500,
+    "trial": 2
+  },
+  {
+    "model": "CustomALS",
+    "parameters": {
+      "factors": 16,
+      "regularization": 1.0,
+      "alpha": 10.0,
+      "iterations": 8,
+      "half_life_days": 365.0
+    },
+    "NDCG@10": 0.024579372051474428,
+    "Recall@10": 0.047516650016650015,
+    "fit_seconds": 5.563016169995535,
+    "evaluation_seconds": 0.3481413249974139,
+    "users": 1500,
+    "trial": 0
+  },
+  {
+    "model": "CustomALS",
+    "parameters": {
+      "factors": 24,
+      "regularization": 5.0,
+      "alpha": 10.0,
+      "iterations": 8,
+      "half_life_days": 365.0
+    },
+    "NDCG@10": 0.028594024931347765,
+    "Recall@10": 0.04822963702963703,
+    "fit_seconds": 5.9520698379783425,
+    "evaluation_seconds": 0.3516188620124012,
+    "users": 1500,
+    "trial": 1
+  },
+  {
+    "model": "CustomALS",
+    "parameters": {
+      "factors": 24,
+      "regularization": 5.0,
+      "alpha": 30.0,
+      "iterations": 8,
+      "half_life_days": 365.0
+    },
+    "NDCG@10": 0.02653113981661711,
+    "Recall@10": 0.04638968993968994,
+    "fit_seconds": 5.933574189984938,
+    "evaluation_seconds": 0.3482082359842025,
+    "users": 1500,
+    "trial": 2
+  }
+]

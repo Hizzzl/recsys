@@ -1,0 +1,41 @@
+# Данные и выгрузки не отправляются в GitHub.
+data/
+datasets/
+downloads/
+*.csv
+!results/*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.jsonl.gz
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Окружения, кеши и служебные файлы.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Веса моделей, матрицы и тяжёлые промежуточные результаты.
+artifacts/
+checkpoints/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.joblib
+
+# experiments.ipynb и его выполненные outputs сохраняются в Git.

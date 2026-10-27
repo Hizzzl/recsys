@@ -1,0 +1,28 @@
+{
+  "ItemKNN": {
+    "neighbors": 80,
+    "shrinkage": 10.0
+  },
+  "iALS": {
+    "factors": 16,
+    "regularization": 1.0,
+    "alpha": 10.0,
+    "iterations": 8
+  },
+  "EASE": {
+    "regularization": 800.0
+  },
+  "FM": {
+    "factors": 16,
+    "learning_rate": 0.01,
+    "regularization": 0.001,
+    "epochs": 6
+  },
+  "CustomALS": {
+    "factors": 24,
+    "regularization": 5.0,
+    "alpha": 10.0,
+    "iterations": 8,
+    "half_life_days": 365.0
+  }
+}

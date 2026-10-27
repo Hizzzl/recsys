@@ -1,0 +1,41 @@
+{
+  "source_rows": 814586,
+  "source_users": 94762,
+  "source_items": 25612,
+  "missing": {
+    "user_id": 0,
+    "parent_asin": 0,
+    "rating": 0,
+    "timestamp": 0
+  },
+  "exact_duplicates": 0,
+  "repeated_pairs": 0,
+  "clean_rows_before_selection": 814586,
+  "selected_rows": 256100,
+  "users": 30000,
+  "items": 4000,
+  "train_rows": 250926,
+  "validation_rows": 3883,
+  "test_rows": 1291,
+  "train_cutoff_ms": 1575948275894,
+  "validation_cutoff_ms": 1625858700426,
+  "train_cutoff_utc": "2019-12-10 03:24:35.894000+00:00",
+  "validation_cutoff_utc": "2021-07-09 19:25:00.426000+00:00",
+  "sparsity": 0.9978658333333333,
+  "metadata_coverage": {
+    "title": 3999,
+    "categories": 3931,
+    "brand": 538,
+    "store": 3994,
+    "description_present": 3644
+  },
+  "sha256": {
+    "Video_Games.csv.gz": "a2bde5f3b945960d161538c200dd87845e6ee471b46da96410dde61613c6901c",
+    "meta_Video_Games.jsonl.gz": "ced9696b0874121327a438bfe9d3d01aba45da158e58f94f4920352d75fc1fc9"
+  },
+  "excluded_validation_rows": 77575,
+  "excluded_test_rows": 80169,
+  "validation_users_evaluated": 1500,
+  "test_users_evaluated": 677,
+  "seed": 42
+}

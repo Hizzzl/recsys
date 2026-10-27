@@ -1,0 +1,34 @@
+[
+  {
+    "model": "CustomALS",
+    "parameters": {
+      "factors": 16,
+      "regularization": 1.0,
+      "alpha": 10.0,
+      "iterations": 8,
+      "half_life_days": 365.0
+    },
+    "NDCG@10": 0.034812950165379476,
+    "Recall@10": 0.0594411619891679,
+    "fit_seconds": 5.268558691983344,
+    "evaluation_seconds": 0.15824922299361788,
+    "users": 677,
+    "comparison": "same factors/regularization/alpha/iterations as selected iALS"
+  },
+  {
+    "model": "FM",
+    "parameters": {
+      "factors": 16,
+      "learning_rate": 0.01,
+      "regularization": 0.001,
+      "epochs": 6,
+      "use_metadata": false
+    },
+    "NDCG@10": 0.02091818015910878,
+    "Recall@10": 0.03984900705727884,
+    "fit_seconds": 4.378730149008334,
+    "evaluation_seconds": 0.15459042397560552,
+    "users": 677,
+    "comparison": "same selected FM settings, ID features only"
+  }
+]
